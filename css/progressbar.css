@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap");
+
+:root{
+  --bg-color : #fdfdfd;
+  --text-color : #333;
+  --main-color: #754ef9;
+  --white-color: #fdfdfd;
+  --shadow-color : rgba(0,0,0,.2);
+
+}
+
+.center-box {
+  margin: 2rem;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.container {
+  margin: 3rem;
+  margin-top: 7rem;
+  border-radius: 10px;
+  display: inline-block;
+  padding: 1.7rem 1.3rem;
+  min-width: 27.2rem;
+  /* box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.2); */
+  scale: 2.2; 
+}
+@media (max-width: 490px) {
+  .container {
+    min-width: unset;
+  }
+}
+
+.outer {
+  display: inline-block;
+  padding: 0rem 1rem;
+  transform: rotate(-90deg);
+}
+
+.circle-box {
+  position: relative;
+  display: inline-block;
+}
+
+.circle {
+  fill: none;
+  stroke-width: 3px;
+  stroke-dashoffset: 276;
+  stroke-dasharray: 276;
+}
+
+.grey-circle {
+  fill: none;
+  stroke: rgba(128, 128, 128, 0.219);
+  stroke-width: 3px;
+}
+
+.circle--1 {
+  stroke: var(--main-color);
+  animation: fill75 2.1s forwards ease-out;
+}
+
+.circle--2 {
+  stroke: var(--main-color);
+  animation: fill50 2.1s forwards ease-out;
+}
+
+.circle--3 {
+  stroke: var(--main-color);
+  animation: fill90 2.1s forwards ease-out;
+}
+
+.skill-name {
+  color: var(--main-color);
+  position: absolute;
+  font-size: 15px;
+  margin: 0px;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.percentage {
+  color: black;
+  position: absolute;
+  font-size: 10px;
+  margin: 0px;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@keyframes fill75 {
+  100% {
+    stroke-dashoffset: 69;
+  }
+}
+@keyframes fill50 {
+  100% {
+    stroke-dashoffset: 138;
+  }
+}
+@keyframes fill90 {
+  100% {
+    stroke-dashoffset: 27.6;
+  }
+}
+@keyframes fill93 {
+  100% {
+    stroke-dashoffset: 257;
+  }
+}
+@keyframes fill78 {
+  100% {
+    stroke-dashoffset: 257;
+  }
+}
