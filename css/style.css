@@ -114,9 +114,6 @@ section{
     padding: 10rem 7% 2rem;
 }
 
-.space{
-  min-height: 200vh !important;
-}
 
 .home{
     display: flex;
@@ -331,7 +328,7 @@ span{
 }
 
 .services{
-    min-height: auto;
+    min-height: 100vh;
     padding-bottom: 7rem;
 }
 
