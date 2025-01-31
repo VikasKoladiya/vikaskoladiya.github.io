@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://vikaskoladiya.github.io/sitemap-0.xml
+Sitemap: https://vikaskoladiya.github.io/sitemap-index.xml
